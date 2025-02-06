@@ -24,7 +24,7 @@ export class Server {
       res.sendFile(indexPath);
     });
     this.app.listen(this.port, () => {
-      console.log("Server running on PORT 3000");
+      console.log("Server running on PORT 3000 on Azure");
     });
   }
 }
